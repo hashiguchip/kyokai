@@ -1,0 +1,12 @@
+//reset
+@import "~normalize-scss";
+@import "util/reset";
+//variables
+@import "variables/fonts";
+@import "variables/colors";
+//media query
+@import "variables/media";
+//layouts
+@import "layouts/layouts";
+//pages
+@import "pages/index";

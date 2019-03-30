@@ -1,0 +1,58 @@
+include ../variables/projectBase
+doctype html
+html
+    head
+        title #{siteTitle}
+        // meta(name='last-updated', content='todo')
+        // meta(name='user-signed-in', content='todo')
+        // meta(name='algolia-public-id', content='todo')
+        // meta(name='algolia-public-key', content='todo')
+        // meta(name='environment', content='todo')
+        // meta(name='description', content='todo')
+        // meta(name='keywords', content='todo')
+        // meta(property='og:type', content='todo')
+        // meta(property='og:url', content='todo')
+        meta(property='og:title', content='#{siteTitle}')
+        // meta(property='og:image', content='todo')
+        // meta(property='og:description', content='todo')
+        // meta(property='og:site_name', content='todo')
+        // meta(name='twitter:site', content='todo')
+        meta(name='twitter:title', content='#{siteTitle}')
+        // meta(name='twitter:description', content='todo')
+        // meta(name='twitter:image:src', content='todo')
+        // meta(name='twitter:card', content='todo')
+        // meta(name='viewport', content='todo')
+        // meta(name='apple-mobile-web-app-title', content='todo')
+        // meta(name='application-name', content='todo')
+        // meta(property='fb:pages', content='todo')
+        // meta(name='theme-color', content='todo')
+        // link(rel='canonical', href='todo')
+        // link(rel='alternate', type='application/rss+xml', title='todo', href='todo')
+        // link(rel='shortcut icon', type='image/x-icon', href='todo')
+        // link(rel='apple-touch-icon', href='todo')
+        // link(rel='apple-touch-icon', sizes='152x152', href='todo')
+        // link(rel='apple-touch-icon', sizes='180x180', href='todo')
+        // link(rel='apple-touch-icon', sizes='167x167', href='todo')
+        // link(href='todo', rel='icon', sizes='192x192')
+        // link(href='todo', rel='icon', sizes='128x128')
+        // link(rel='manifest', href='todo')
+        // link(rel='search', href='todo', type='todo', title='todo')
+    body
+        script(src='../js/main.ts')
+    .page-wrapper
+        .page-wrapper__header
+            .header
+                h1.header__title #{siteTitle}
+        .page-wrapper__top
+            block top
+        .page-wrapper__main
+            .main-content
+                .main-content__left
+                    block left
+                .main-content__main
+                    block main
+        .page-wrapper__footer
+            .footer
+                .footer__text ©2019–2019 一 #{siteTitle} #{siteTitleEnglish} All Rights Reserved.
+
+

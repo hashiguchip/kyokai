@@ -1,0 +1,24 @@
+{
+  "name": "kyoukai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/pages/index.pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "normalize-scss": "^7.0.1",
+    "normalize.css": "^8.0.1",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.16.4",
+    "pug": "^2.0.3",
+    "sass": "^1.17.3",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "include-media": "^1.4.9"
+  }
+}
