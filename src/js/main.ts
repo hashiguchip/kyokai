@@ -1,4 +1,3 @@
-import "swiper/dist/css/swiper.min.css";
 import "../css/main.scss";
 import Swiper from "swiper";
 
