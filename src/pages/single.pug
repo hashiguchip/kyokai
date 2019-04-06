@@ -1,0 +1,28 @@
+extends ../layouts/layout
+block style
+    link(rel="stylesheet" type="text/css" href="../css/pages/single.scss")
+block top
+block main
+    .main-wrapper
+        .main-wrapper__hero.hero
+            img.hero__image(src="../images/sample.png")
+            .hero__text
+                h1.hero__title #{siteTitle} とは？
+                // .hero__subtitle #{siteTitle} に関する情報をお知らせします。
+        .main-wrapper__article.article
+            h2.article__headline.article__headline--top タイトルテストタイトルテストタイトルテストタイトルテスト。
+            .article__body
+                p.article__p 本文てすとおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお
+                p.article__p 本文てすとおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお
+            h2.article__headline タイトルテストタイトルテストタイトルテスト。
+            .article__body
+                p.article__p 本文てすとおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお
+block left
+    .left-subject
+        p.left-subject__title メニュー (ここは変更なし)
+    .links
+        .link-block todo:画像
+        .link-block todo:画像
+        .link-block todo:画像
+
+
