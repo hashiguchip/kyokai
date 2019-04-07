@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "include-media": "^1.4.9",
+    "rellax": "^1.9.1",
     "swiper": "^4.5.0"
   }
 }
