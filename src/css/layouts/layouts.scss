@@ -33,6 +33,18 @@
     left: 10px;
     transform: translateY(-50%);
   }
+  &__menu {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  &__concact {
+    display: inline-block;
+    padding: 1px 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+  }
 }
 .footer {
   height: 100%;
