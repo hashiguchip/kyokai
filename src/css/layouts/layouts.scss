@@ -1,6 +1,7 @@
 .page-wrapper {
   //width: 100vw;
   font-family: $primaryFont;
+  margin-top: 64px;
   @include media(">phone") {
   }
   &__header {
@@ -12,8 +13,12 @@
     box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
     z-index: 100;
   }
+  &__header::before {
+    content: "";
+    position: static;
+    height: 64px;
+  }
   &__top {
-    margin-top: 64px;
   }
   &__main {
     margin: 20px 0;
