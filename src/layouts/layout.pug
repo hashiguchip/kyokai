@@ -41,6 +41,9 @@ html
         block style
     body
     .page-wrapper
+        .page-wrapper__background-video.video-block
+            video.video-block__video#bgvid(poster='../images/sample.png', playsinline='', autoplay='', muted='', loop='')
+                source(src='../images/sample.mp4', type='video/mp4')
         .page-wrapper__header
             .header
                 a(href="/index.pug")

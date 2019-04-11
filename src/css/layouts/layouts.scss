@@ -1,32 +1,37 @@
 .page-wrapper {
-  //width: 100vw;
   font-family: $primaryFont;
-  margin-top: 64px;
+  padding-top: 64px;
+  // background: $pageBackground;
   @include media(">phone") {
+  }
+  &__background-video {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -200;
   }
   &__header {
     position: fixed;
     top: 0;
     width: 100%;
     height: 64px;
-    background-color: #0aff99;
+    background: $headerBackground;
     box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
     z-index: 100;
-  }
-  &__header::before {
-    content: "";
-    position: static;
-    height: 64px;
   }
   &__top {
   }
   &__main {
+    z-index: 2;
     margin: 20px 0;
     width: calc(100% - 4vw);
     min-height: calc(100vh - 340px);
     padding: 0 2vw;
   }
   &__footer {
+    z-index: 3;
     width: 100%;
     height: 100px;
     background-color: #573629;
@@ -81,5 +86,16 @@
     padding: 10px;
     width: 24%;
     background-color: aquamarine;
+  }
+}
+
+.video-block {
+  &__video {
+    min-width: 100%;
+    min-height: 100%;
+    /* 幅と高さを自動に設定すると、ブラウザがビデオを伸縮させないようにします。 */
+    width: auto;
+    height: auto;
+    filter: blur(4px);
   }
 }

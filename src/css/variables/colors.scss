@@ -1,8 +1,23 @@
-//pre
-$__test: #0c00ff;
+// 👑 Site primary color
+$__primaryColor: #57ff00;
+
+// 🎨 Color palette
+$__primary: red;
 $__offWhite: #e8e8e4;
 $__rightBlack: #322e33;
 
-//set
+// 🚀 Set
 $primaryFontColor: $__rightBlack;
-$primaryBackground: $__offWhite;
+$headerBackground: linear-gradient(
+  90deg,
+  rgba(2, 0, 36, 1) 0%,
+  rgba(79, 233, 0, 1) 0%,
+  rgba(87, 255, 0, 1) 11%,
+  rgba(0, 212, 255, 0) 37%,
+  rgba(0, 0, 0, 0) 100%
+);
+$pageBackground: radial-gradient(
+  circle,
+  rgba(249, 255, 246, 1) 0%,
+  rgba(235, 255, 225, 1) 100%
+);
