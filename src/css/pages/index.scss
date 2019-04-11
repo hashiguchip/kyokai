@@ -1,7 +1,7 @@
 .section_heaer {
   &__title {
     letter-spacing: 0.12em;
-    background-color: #ffc75b;
+    border-radius: 5px;
   }
 }
 
@@ -13,7 +13,6 @@
 .link-block {
   margin: 10px;
   height: 60px;
-  background: red;
 }
 .left-subject {
   &__title {

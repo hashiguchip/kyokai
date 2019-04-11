@@ -56,6 +56,7 @@
   }
   &__concact {
     display: inline-block;
+    background: $clearPanel;
     padding: 1px 10px;
     border: 1px solid cornflowerblue;
     border-radius: 4px;
@@ -80,12 +81,15 @@
     // flex: 2 1 calc(70% - 5px);
     padding: 10px;
     width: 70%;
+    background: $clearPanel;
+    border-radius: 5px;
   }
   &__left {
     // flex: 1 1 calc(30% - 5px);
     padding: 10px;
     width: 24%;
-    background-color: aquamarine;
+    background: $clearPanel;
+    border-radius: 5px;
   }
 }
 
