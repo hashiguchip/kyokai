@@ -67,6 +67,12 @@
     margin-top: 10px;
     line-height: 24px;
   }
+  &__image {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    height: 50%;
+  }
   &__p {
   }
 }
