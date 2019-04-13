@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel ./src/pages/*.pug",
+    "build": "parcel build ./src/pages/*.pug --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
