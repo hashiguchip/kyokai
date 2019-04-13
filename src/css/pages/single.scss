@@ -9,7 +9,12 @@
   background: red;
 }
 .left-subject {
+  padding: 5px 15px;
+  border-radius: 4px;
+  background: #2c3a57;
+  opacity: 0.7;
   &__title {
+    color: #f7ffef;
     font-size: 22px;
   }
 }
@@ -27,9 +32,9 @@
   overflow: hidden;
   &__image {
     position: absolute;
-    bottom: -5px;//todo: blur縁対策 スマートにしたい
-    left: -10px;//todo: blur縁対策 スマートにしたい
-    width: 110%;//todo: blur縁対策 スマートにしたい
+    bottom: -5px; //todo: blur縁対策 スマートにしたい
+    left: -10px; //todo: blur縁対策 スマートにしたい
+    width: 110%; //todo: blur縁対策 スマートにしたい
     height: 400px;
     filter: blur(5px);
   }
@@ -50,6 +55,7 @@
 .article {
   &__headline {
     margin-top: 20px;
+    background: $headerBackground;
     &--top {
       margin-top: 0;
     }
