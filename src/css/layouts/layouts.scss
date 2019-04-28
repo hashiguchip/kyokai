@@ -1,7 +1,7 @@
 .page-wrapper {
   font-family: $primaryFont;
   padding-top: 64px;
-  width: 100vw;
+  width: 100%;
   // background: $pageBackground;
   @include media(">phone") {
   }
