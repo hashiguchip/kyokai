@@ -1,6 +1,7 @@
 .page-wrapper {
   font-family: $primaryFont;
   padding-top: 64px;
+  width: 100vw;
   // background: $pageBackground;
   @include media(">phone") {
   }
@@ -85,7 +86,7 @@
   //height: 100vh; //なぜここのheightでくるうか？
   &__main {
     // flex: 2 1 calc(70% - 5px);
-    padding: 10px;
+    padding: 10px 0;
     width: 70%;
     @include media("<desktop") {
       width: 100%;
@@ -95,7 +96,7 @@
   }
   &__left {
     // flex: 1 1 calc(30% - 5px);
-    padding: 10px;
+    padding: 10px 0;
     width: 24%;
     @include media("<desktop") {
       width: 100%;
