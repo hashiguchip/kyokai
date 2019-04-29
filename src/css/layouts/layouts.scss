@@ -108,6 +108,7 @@
 }
 
 .video-block {
+  background-color: #fffdf5;
   &__video {
     min-width: 100%;
     min-height: 100%;
@@ -115,5 +116,6 @@
     width: auto;
     height: auto;
     filter: blur(4px);
+    opacity: 0.4;
   }
 }
