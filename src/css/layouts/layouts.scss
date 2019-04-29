@@ -53,13 +53,13 @@
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
+    color: #434a30;
   }
   &__concact {
     display: inline-block;
-    background: $__offWhite;
-    padding: 2px 10px;
-    border: 2px solid cornflowerblue;
-    border-radius: 4px;
+    background: linear-gradient(30deg, #ffd366, #5dff6f);
+    padding: 8px 15px;
+    border-radius: 50px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   }
 }
