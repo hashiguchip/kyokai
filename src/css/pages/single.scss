@@ -4,9 +4,13 @@
   justify-content: space-around;
 }
 .link-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 10px;
   height: 60px;
-  background: red;
+  background: #6ca6b4;
+  border-radius: 6px;
 }
 .left-subject {
   padding: 5px 15px;
